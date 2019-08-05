@@ -5,7 +5,7 @@ export class TodoBanner extends Component {
         return (
             <h4 className="bg-primary text-white text-center p-2">
             {this.props.name}'s To Do List
-            ({this.propps.tasks.filter(el => !el.done).length} items to do)
+            ({this.props.tasks.filter(el => !el.done).length} items to do)
             </h4>
         )
     }
